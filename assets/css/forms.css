@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after
+{   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+    list-style: none; 
+}
+body{
+    background-image: url(../img/about_img.jpg) ;
+    box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.767);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container
+{   
+    background: transparent;
+    /* margin: auto; */
+    width: 900px;
+    /* max-width: 90%; */
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 400px;
+}

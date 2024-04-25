@@ -1,0 +1,853 @@
+
+
+
+
+<!doctype html>
+<html lang="fr"> 
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="IBD_bc_gwtXAgdzLt0HbySxPUzzyXGSkHvbQqbuETWA" />
+
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>MyHelp</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="images/logoMH.png" rel="icon">
+    <link href="images/logoMH.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://maps.app.goo.gl/2i1WTghhEErBzra28" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+    <!-- =======================================================
+    * Template Name: Restaurantly
+    * Updated: Feb 20 2024 with Bootstrap v5.3.2
+    * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+    <!-- <meta name="google-site-verification" content="_L0KDj1o81N9RzhyeR7j611j2-IA9ITBFoGNc40eAeE" /> 
+    
+    <meta name="description" content="IAFUNDING est une plateforme de crowdfunding vous permettant de collecter des fonds pour vos projets. Un site de mise en relation entre porteurs de projets et investisseurs. Trouvez avec nous la méthode pour réussir le financement de votre entreprise avec ou sans levée de fonds, de l'amorçage à la croissance."> 
+    <meta name="keywords" content="iafunding iaf crowdfunding financement investisseur projet ia-funding.com"> -->
+
+    <!--Security-->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: wss://vsa6.tawk.to/* 'unsafe-inline' 'unsafe-eval'">
+    <meta http-equiv="Expect-CT" content="enforce, max-age:30">
+    <meta http-equiv="Referrer-Policy" content="same-origin">
+    <meta http-equiv="Strict-Transport-Security" content="max-age:3">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block"> -->
+    <!--Security-->
+    
+    <!--OGP-->
+    <!-- <meta property="og:title" content="ia-funding" />
+    <meta property="og:url" content="https://www.ia-funding.com" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iafunding" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:description" content=" IAFUNDING est une plateforme de crowdfunding vous permettant de collecter des fonds pour vos projets. Un site de mise en relation entre porteurs de projets et investisseurs. Trouvez avec nous la méthode pour réussir le financement de votre entreprise avec ou sans levée de fonds, de l'amorçage à la croissance." />
+    <meta property="og:image" content="https://www.ia-funding.com/template/users/images/logo.png" /> -->
+
+    <!--End OGP-->
+
+    <!--Twitter Card-->
+    <!-- <meta property="twitter:title" content="ia-funding" />
+    <meta property="twitter:url" content=" https://www.ia-funding.com" />
+    <meta property="twitter:card" content="IA-Funding vous aide dans la reherche d'un investissement ou d'un projet dans lequel investir." />
+    <meta property="twitter:description" content=" IAFUNDING est une plateforme de crowdfunding vous permettant de collecter des fonds pour vos projets. Un site de mise en relation entre porteurs de projets et investisseurs. Trouvez avec nous la méthode pour réussir le financement de votre entreprise avec ou sans levée de fonds, de l'amorçage à la croissance." />
+    <meta property="twitter:image" content="https://www.ia-funding.com/template/users/images/logo.png" /> -->
+
+    <!--End Twitter Card-->
+
+
+    <title>MyHelp</title>
+    <link rel="icon" href="../images/logoMH.png" type="">
+
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/animate.min.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/elegant-fonts.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/themify-icons.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/swiper.min.css">
+    <link rel="stylesheet" href="https://www.ia-funding.com/template/users/css/style.css">
+
+    <style type="text/css"> 
+        .margin-left{
+            margin-left: 10px !important;
+        }   
+
+        .btn.green-gradient{
+            border-color: transparent;
+            background: -moz-linear-gradient(270deg, rgba(0,200,0,1) 0%, rgba(0,150,0,1) 100%); /* ff3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,200,0,1)), color-stop(100%, rgba(0,150,0,1))); /* safari4+,chrome */
+            background: -webkit-linear-gradient(270deg, rgba(0,200,0,1) 0%, rgba(0,150,0,1) 100%); /* safari5.1+,chrome10+ */
+            background: -o-linear-gradient(270deg, rgba(0,200,0,1) 0%, rgba(0,150,0,1) 100%); /* opera 11.10+ */
+            background: -ms-linear-gradient(270deg, rgba(0,200,0,1) 0%, rgba(0,150,0,1) 100%); /* ie10+ */
+            background: linear-gradient(270deg, rgba(0,200,0,1) 0%, rgba(0,150,0,1) 100%); /* w3c */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c800', endColorstr='#009600',GradientType=1 ); /* ie6-9 */
+            color: #fff;
+        }
+
+        a, a:hover {
+            text-decoration: none !important;
+        }
+
+        #announce{
+            z-index: 9999999999999999;
+            position: fixed;
+            width: 100%;
+            height: 20px;
+            bottom: 0;
+            background: linear-gradient(270deg, rgba(0,164,82,1) 0%, rgba(8,216,112,1) 100%);
+            display: none;
+        }
+
+
+        #icon-bar {
+            z-index: 9999999999999999;
+          position: fixed;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+
+#icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  /*opacity: .5;*/
+}
+
+#icon-bar a:hover {
+  background-color: #000;
+  opacity: 1;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+    </style>
+
+        <link rel="stylesheet" type="text/css" href="https://www.ia-funding.com/template/users/css/custom.css">
+
+
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/jquery.min.js"></script>
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/jquery.barfiller.js"></script>
+</head>
+
+<body class="single-page about-page bg-black">
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        
+        $("#porteurFormu").hide();
+        $("#investisseursFormu").hide();
+
+        $('#porteurBtn').on('click', function(){
+            $("#porteurFormu").show();
+            $("#investisseursFormu").hide();
+        });
+
+        $('#investisseurBtn').on('click', function(){
+            $("#porteurFormu").hide();
+            $("#investisseursFormu").show();
+        });
+
+        // function erreurporteur(){
+        //     $("#porteurFormu").show();
+        //     $("#investisseursFormu").hide();
+        // }
+
+        // function erreurinvestisseur(){
+        //     $("#porteurFormu").hide();
+        //     $("#investisseursFormu").show();
+        // }
+
+       
+        
+    });
+</script>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Inscription</h1>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .page-header -->
+
+    
+
+   
+
+   
+
+   <!--  echo '<script>porteurshow();</script>'; -->
+
+    <div class="featured-cause">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="padding: 50px; text-align: center;">
+                    <div class="section-heading">
+
+                        <input type="submit" style="cursor: pointer;" name="porteurBtn" id="porteurBtn" class="btn " value="Porteur de projets">
+
+                        <input type="submit" style="cursor: pointer; margin-left: 20px" name="investisseurBtn" class="btn " id="investisseurBtn" value="Investisseurs">
+
+                                                
+                        <!-- <h1 style="text-align: center; text-transform: uppercase; font-weight: bold; margin: 20px">Inscription</h1> -->
+                        <!-- <h2 class="entry-title">Projets</h2> -->
+                    </div><!-- .section-heading -->
+                </div><!-- .col -->
+
+                <div class="col-12" id="porteurFormu" style="margin: 20px">
+                    <h1 style="text-align: center; text-transform: uppercase; font-weight: bold; margin: 20px">Inscription porteur de projets</h1>
+                    <form class="form-sample" method="post"  action="" id="porteurForm" enctype="multipart/form-data">
+                      <input type="hidden" name="_token" value="uh5re4CwJWTHiIrgjzsuaiwSy7pWAA7CW8LKLHRd">                      <p class="card-description">
+                        Renseignez les informations
+                      </p>
+                      <div class="row">
+                        <input type="hidden" name="type" id="type" value="porteurproj">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Nom</label>
+                            <div class="col-sm-9">
+                              <input id="name" placeholder="Nom" type="text" class="form-control" name="name"required />
+                                                          </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Prenom</label>
+                            <div class="col-sm-9">
+                              <input name="prenom" id="prenom" placeholder="Prenom" type="text" class="form-control" required />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Sexe</label>
+                            <div class="col-sm-9">
+                              <select name="sexe" id="sexe" placeholder="Sexe" class="form-control" required >
+
+                                <option value="0">Homme</option>
+                                <option value="1">Femme</option>
+
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Année de naissance</label>
+                            <div class="col-sm-9">
+                              <input name="annee" id="annee" type="number" placeholder="Année de naissance" type="text" class="form-control" required />
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                       <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Activité du porteur du projet</label>
+                            <div class="col-sm-9">
+                              <input type="text" name="activite" id="activite" placeholder="Activité" class="form-control" required />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Email</label>
+                            <div class="col-sm-9">
+                              <input type="email" name="email" placeholder="Email" id="email" class="form-control" maxlength="100" required />
+                                                          </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Téléphone</label>
+                            <div class="col-sm-9">
+                              <input type="number" name="phone" id="phone" placeholder="Téléphone" class="form-control" maxlength="100" required />
+                            </div>
+                          </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Adresse</label>
+                            <div class="col-sm-9">
+                              <input name="adresse" id="adresse" placeholder="Adresse" class="form-control" required>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Image de profil</label>
+                            <div class="col-sm-9">
+                              <input type="file" name="profil" id="profil" required class="form-control" required required>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Description</label>
+                            <div class="col-sm-9">
+                              <input type="text" name="desc" id="desc" placeholder="Description du porteur de projet" required class="form-control" required required>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Mot de passe</label>
+                            <div class="col-sm-9">
+                              <input id="password" name="password" type="password" class="form-control" name="password" required>
+
+                                                          </div>
+                          </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Confirmation</label>
+                            <div class="col-sm-9">
+                              <input id="password-confirm" type="password" class="form-control" name="password_confirmation" id="password_confirmation" required>
+                            </div>
+                          </div>
+                        </div>
+
+                         <div class="col-md-12" style="text-align: center;">
+                          <div class="form-group row" style="text-align: center;">
+                            <br/><br/>
+                            <div class="col-md-12">
+                                <input style="text-align: center; margin: 20px; color: #fff; cursor: pointer" type="submit" name="validporteurForm" value="Valider" class="btn btn-primary">
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                      </div>
+
+                      
+
+                      
+                    </form>
+                    
+                </div>
+
+
+                <div class="col-12" id="investisseursFormu" style="margin: 20px">
+                  <h1 style=" text-align: center; text-transform: uppercase; font-weight: bold; margin: 20px my-3 text-primary">Inscription investisseurs</h1>
+                    <!-- <marquee behavior="alternate" scrollamount="9" direction="">
+                        
+                    </marquee> -->
+
+                    <form class="form-sample" method="post"  action="https://www.ia-funding.com/register" id="investisseursForm" enctype="multipart/form-data">
+                      <input type="hidden" name="_token" value="uh5re4CwJWTHiIrgjzsuaiwSy7pWAA7CW8LKLHRd">                      <p class="card-description">
+                        Renseignez les informations
+                      </p>
+                      <div class="row">
+                        <input type="hidden" name="type" id="type" value="invest">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Nom</label>
+                            <div class="col-sm-9">
+                              <input name="namei" id="namei" placeholder="Nom" type="text" class="form-control" required />
+                                                          </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Prenom</label>
+                            <div class="col-sm-9">
+                              <input name="prenomi" id="prenomi" placeholder="Prenom" type="text" class="form-control" required />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Sexe</label>
+                            <div class="col-sm-9">
+                              <select name="sexei" id="sexei" placeholder="Sexe" class="form-control" required />
+
+                                <option value="0">Homme</option>
+                                <option value="1">Femme</option>
+
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Email</label>
+                            <div class="col-sm-9">
+                              <input type="email" name="emaili" placeholder="Email" id="emaili" class="form-control" maxlength="100" required />
+                                                          </div>
+                          </div>
+                        </div>
+                          
+                        
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Téléphone</label>
+                            <div class="col-sm-9">
+                              <input type="number" name="phonei" id="phonei" placeholder="Téléphone" class="form-control" maxlength="100" required />
+                            </div>
+                          </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Adresse</label>
+                            <div class="col-sm-9">
+                              <input name="adressei" id="adressei" placeholder="Adresse" class="form-control" required>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Image de profil</label>
+                            <div class="col-sm-9">
+                              <input type="file" name="profili" id="profili" required class="form-control" required required>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Pseudo</label>
+                            <div class="col-sm-9">
+                              <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required class="form-control" required>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Mot de passe</label>
+                            <div class="col-sm-9">
+                              <input id="passwordi" name="passwordi" type="password" class="form-control" required>
+
+                                                          </div>
+                          </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group row">
+                            <label class="col-sm-3 col-form-label">Confirmation</label>
+                            <div class="col-sm-9">
+                              <input type="password" class="form-control" name="passwordi_confirmation" id="passwordi_confirmation" required>
+                            </div>
+                          </div>
+                        </div>
+
+                         <div class="col-md-12" style="text-align: center;">
+                          <div class="form-group row" style="text-align: center;">
+                            <br/><br/>
+                            <div class="col-md-12">
+                              <input style="text-align: center; margin: 20px; color: #fff; cursor: pointer;" 
+                              type="submit" 
+                              name="validinvestisseurForm" 
+                              value="Valider" 
+                              class="btn btn-primary"
+                              onclick="window.location.href = 'index.html';">
+                       
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      
+
+                      
+                    </form>
+                    
+                </div>
+
+                
+            
+                    
+            </div><!-- .row -->
+        </div>
+    </div>
+
+
+   <!--  <div class="container-fluid" style="padding-top: 50px">
+        <h6 style="text-transform: uppercase; letter-spacing: 8px; text-align: center; margin-bottom: -5px; font-size: 0.6em;">iafunding plateforme</h6>
+        <h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">partenaires</h1>
+        <div class="row">
+            <div class="col-12" style="text-align: center !important;">-->
+              <!--   <a href="https://synergiecabinet.com/" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/SYNERGIE.png" style="display: inline-block; height: 100px;"></a>-->
+              <!--  <a href="https://www.logexit.com/" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/LOGEX.png" style="display: inline-block; height: 100px;"></a>-->
+               <!-- <a href="http://www.afriquelitecompetence.com/" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/AEC.png" style="display: inline-block; height: 100px;"></a>-->
+               <!-- <a href="javascript:void(0);" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/RIA_COM.png" style="display: inline-block; height: 100px;"></a>-->
+               <!-- <a href="http://www.beta-btp.com/" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/BETA.png" style="display: inline-block; height: 100px;"></a>-->
+              <!--  <a href="https://www.logexit.com/adije-togo" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/ADIJE.png" style="display: inline-block; height: 100px;"></a>-->
+              <!--  <a href="http://www.youpiokaz.com/" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/YOUPIOKAZ.png" style="display: inline-block; height: 100px;"></a>-->
+              <!--  <a href="javascript:void(0);" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/AGENCY.png" style="display: inline-block; height: 100px;"></a>-->
+                <!--<a href="javascript:void(0);" target="_blank"><img src="https://www.ia-funding.com/template/users/images/partners/BA4_AFRICA.png" style="display: inline-block; height: 100px;"></a>-->
+           <!--   </div>
+        </div>
+    </div>-->
+
+    <!-- <footer class="site-footer">
+        <div class="footer-widgets" style="padding: 30px 0 0 0;">
+            <div class="container">
+                <div class="row"> -->
+                    <!-- <div class="col-md-4">
+                        <div class="foot-about">
+                            <a class="foot-logo" href="#">
+                                <img src="../images/logoMH.png" width="300">
+                            </a>
+
+                            <ul class="d-flex flex-wrap align-items-center">
+                                <li style="text-transform: uppercase;">
+                                    Suivez nous sur
+                                </li>
+                                <li>
+                                    <a href="https://fr-fr.facebook.com/societe.logex" target="_blank"><i class="fa fa-facebook" style="font-size: 1.5em"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/logexit?lang=fr" target="_blank"><i class="fa fa-twitter" style="font-size: 1.5em"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/societe-logex-4438a3170/" target="_blank"><i class="fa fa-linkedin" style="font-size: 1.5em"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="col-md-5">
+                        <div class="foot-contact">
+                            <h2 style="text-transform: uppercase; margin-bottom: 0">
+                                Contactez nous vite au
+                            </h2>
+
+                            <ul>
+                                <li>
+                                    <i class="fa fa-phone" style="color: white;"></i>
+                                    <a href="tel:+228 93 05 53 53">+228 93 05 53 53</a>
+                                    <p style="padding: 0 5px 0 5px; margin-bottom: 0">|</p>
+                                    <a href="tel:+228 96 05 53 53">+228 96 05 53 53</a>
+                                </li> -->
+                               
+                                <!-- <li>
+                                    <i class="fa fa-envelope" style="color: white;" ></i> 
+                                    <a href="mailto:investir@ia-funding.com">investir@ia-funding.com</a> 
+                                    <p style="padding: 0 5px 0 5px; margin-bottom: 0">|</p> 
+                                    <a href="mailto:infos@logexit.com">infos@logexit.com</a> 
+                                </li> -->
+                                <!-- <li><i class="fa fa-map-marker" style="color: white;" ></i><span>262 BKK, Bè-Klikamé | 05 BP 757 Lomé-Togo</span></li>
+                            </ul>
+                                <a href="https://www.ia-funding.com/fr/a-propos" class="btn bg-primary text-white" style="text-transform: uppercase; font-weight: bold; padding: 2px">
+                                    <i class="fa fa-plus-circle"></i> A propos </a>  -->
+                        <!-- </div> -->
+                        <!-- .foot-contact -->
+
+                       
+                    <!-- </div> -->
+                    <!-- .col -->
+
+                        <!-- <div class="col-md-3">
+                            
+
+                            <h2 style="text-transform: uppercase; margin-bottom: 0">
+                                <br>
+                                    Nos Offres
+                                </h2>
+                                <div class="col-xs-2">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-globe"></i><a href="http://www.profarmer.ia-funding.com/" target="_blank"> Offre 1</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-globe"></i> <a href="http://www.yesokaz.com/" target="_blank"> Offre 1</a>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-globe"></i> <a href="http://afriquelitecompetence.com/" target="_blank"> Offre 1</a>
+                                </li> -->
+
+                                <!-- <li>
+                                    <i class="fa fa-globe"></i> <a href="http://logsoft.logexit.com/" target="_blank"> Offre 1</a>
+                                </li> -->
+                                <!-- <li>
+                                    <i class="fa fa-globe"></i> <a href="https://kesinonu.com/" target="_blank"> Offre 1</a> 
+                                </li>
+                                <li>
+                                    <i class="fa fa-globe"></i> <a href="https://wotukui.com/" target="_blank"> Offre 1</a> 
+                                </li>
+                            </ul>
+                        </div> -->
+                            
+                        <!-- </div> -->
+                        <!-- .row -->
+                        
+
+                    <!-- </div> -->
+
+                    
+            <!-- </div> -->
+            <!-- .container -->
+        <!-- </div> -->
+        <!-- .footer-widgets -->
+
+        <!-- <div class="footer-bar bg-primary">
+            <div class="container text-black">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="" style="text-transform: uppercase;">
+                         <br/>   Copyright &copy; <span style="color: rgb(255, 255, 255);">MyHelp  </span>
+                              <script>document.write(new Date().getFullYear());</script> | le financement à votre portée</p> -->
+                    <!-- </div> -->
+                    <!-- .col-6 -->
+<!-- 
+                    <div class="col-md-2">
+                        <p class="" style="text-transform: uppercase;" align="right">
+                           <br/> Powered by <a href="http://logexit.com" style="text-decoration: none; color: white;" target="_blank"></a></p>
+                    </div>.col-6 -->
+
+                    <!-- <div class="col-md-5"  style="border-left: 1px solid;">
+                        <p class="" style="text-transform: uppercase;" align="left">
+                          <a> Pour tous vos projets IT <br/> Renforcement de votre équipe TECH <br/> Formations IT</a> </p>
+                    </div> -->
+                    <!-- .col-6 -->
+
+                <!-- </div>
+            </div>
+        </div>
+    </footer> -->
+
+    
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/jquery.collapsible.min.js"></script>
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/swiper.min.js"></script>
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/jquery.countdown.min.js"></script>
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/circle-progress.min.js"></script>
+    <script type='text/javascript' src="https://www.ia-funding.com/template/users/js/jquery.countTo.min.js"></script>
+    
+    <script type="text/javascript" src="https://www.ia-funding.com/template/users/js/plugin.Nicescroll.js"></script>
+
+    <script type="text/javascript">
+        $(document).scroll(function() {
+          var y = $(this).scrollTop();
+          if (y > 100) {
+            $('#announce').fadeIn();
+             $('#icon-bar').fadeIn();
+          } else {
+            $('#announce').fadeOut();
+            $('#icon-bar').fadeOut();
+          }
+        });
+
+         (function() {
+            "use strict";
+
+            // custom scrollbar
+
+            $("html").niceScroll({styler:"fb",cursorcolor:"#effff", cursorwidth: '6', cursorborderradius: '0', background: '', spacebarenabled:false, cursorborder: '0',  zindex: '1000'});
+
+            $(".scrollbar1").niceScroll({styler:"fb",cursorcolor:"#ef3434", cursorwidth: '6', cursorborderradius: '0',autohidemode: 'false', background: '', spacebarenabled:false, cursorborder: '0'});
+
+            $(".scrollbar1").getNiceScroll();
+            if ($('body').hasClass('scrollbar1-collapsed')) {
+                $(".scrollbar1").getNiceScroll().hide();
+            }
+
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript">
+        (function($) {
+            // 'use strict';
+
+            // Main Navigation
+            $( '.hamburger-menu' ).on( 'click', function() {
+                $(this).toggleClass('open');
+                $('.site-navigation').toggleClass('show');
+            });
+
+            // Hero Slider
+            var mySwiper = new Swiper('.hero-slider', {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                        return '<span class="' + className + '">0' + (index + 1) + '</span>';
+                    },
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                }
+            });
+
+            // Cause Slider
+            var causesSlider = new Swiper('.causes-slider', {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                breakpoints: {
+                    1200: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    }
+                }
+            } );
+
+            // Accordion & Toggle
+            $('.accordion-wrap.type-accordion').collapsible({
+                accordion: true,
+                contentOpen: 0,
+                arrowRclass: 'arrow-r',
+                arrowDclass: 'arrow-d'
+            });
+
+            $('.accordion-wrap .entry-title').on('click', function() {
+                $('.accordion-wrap .entry-title').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            // Tabs
+            $(function() {
+                $('.tab-content:first-child').show();
+
+                $('.tab-nav').bind('click', function(e) {
+                    $this = $(this);
+                    $tabs = $this.parent().parent().next();
+                    $target = $($this.data("target"));
+                    $this.siblings().removeClass('active');
+                    $target.siblings().css("display", "none");
+                    $this.addClass('active');
+                    $target.fadeIn("slow");
+                });
+
+                $('.tab-nav:first-child').trigger('click');
+            });
+
+          
+
+            // Counter
+            $(".start-counter").each(function () {
+                var counter = $(this);
+
+                counter.countTo({
+                    formatter: function (value, options) {
+                        return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                    }
+                });
+            });
+
+            // Bar Filler
+            $('.featured-fund-raised-bar').barfiller({ barColor: '#ff0000', duration: 1500 });
+
+            $('.fund-raised-bar-1').barfiller({ barColor: '#ff0000', duration: 1500 });
+            $('.fund-raised-bar-2').barfiller({ barColor: '#ff0000', duration: 1500 });
+            $('.fund-raised-bar-3').barfiller({ barColor: '#ff0000', duration: 1500 });
+            $('.fund-raised-bar-4').barfiller({ barColor: '#ff0000', duration: 1500 });
+            $('.fund-raised-bar-5').barfiller({ barColor: '#ff0000', duration: 1500 });
+            $('.fund-raised-bar-6').barfiller({ barColor: '#ff0000', duration: 1500 });
+
+            // Load more
+            let $container      = $('.portfolio-container');
+            let $item           = $('.portfolio-item');
+
+            $item.slice(0, 9).addClass('visible');
+
+            $('.load-more-btn').on('click', function (e) {
+                e.preventDefault();
+
+                $('.portfolio-item:hidden').slice(0, 9).addClass('visible');
+            });
+        })(jQuery);
+    </script>
+
+    <!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f29200d2da87279037e425e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script> -->
+<!--End of Tawk.to Script-->
+
+<!--      -->
+</body>
+</html>
+
+     
+
+
+
+
+

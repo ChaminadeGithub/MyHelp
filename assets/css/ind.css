@@ -1,0 +1,498 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour l'en-tête */
+
+
+header h1 {
+    margin: 0;
+}
+
+/* Style pour la navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les sections */
+section {
+    background-color: #020202;
+    padding: 20px;
+    align-items: center;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: auto;
+}
+
+
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+
+
+
+
+/* Nouveau style pour la barre de navigation */
+nav {
+    text-align: right; /* Aligner le contenu à droite */
+}
+
+/* Style pour les liens de navigation */
+.nav-links li {
+    display: inline;
+    margin-left: 20px; /* Espacement entre les options */
+}
+
+/* Style pour le logo */
+.logo img {
+    max-width: 150px; /* Ajuster la taille du logo si nécessaire */
+    vertical-align: middle; /* Aligner le logo verticalement */
+}
+
+
+.service {
+    display: table-cell;
+    vertical-align: top;
+    padding: 20px;
+    width: 30%; /* Ajustez la largeur selon vos besoins */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px; /* Ancienne marge, nous allons la supprimer */
+}
+
+/* Ajout d'un espace entre les services */
+.services-table {
+    display: flex; /* Utilisation d'un conteneur flexible */
+    flex-wrap: wrap; /* Les services vont passer à la ligne si nécessaire */
+    justify-content: space-around; /* Espacement équitable entre les services */
+}
+
+/* Ajustement de la marge des services pour créer de l'espace */
+.service {
+    flex: 0 0 calc(30% - 20px); /* Calcule la largeur de chaque service avec un espacement de 20px */
+    margin-bottom: 20px; /* Ajoute un espace en bas de chaque service */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style initial des services */
+.service {
+    display: table-cell;
+    vertical-align: top;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #b4800f;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s; /* Ajout d'une transition pour une animation fluide */
+}
+
+/* Ajout de l'effet de survol */
+.service:hover {
+    background-color: #cda45e; /* Couleur jaune sombre au survol */
+    color: #f0f0f0;
+}
+
+/* Changer la couleur du texte des paragraphes au survol */
+.service:hover p {
+    color: white; /* Couleur du texte blanc au survol */
+}
+
+.service:hover h3 {
+    color: rgb(0, 0, 0); /* Couleur du texte blanc au survol */
+}
+
+
+
+
+#services {
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* .service {
+    text-align: center;
+    margin-left: 20px;
+} */
+
+/* .services-table {
+    display: table;
+    margin: 0 auto;
+} */
+
+.service {
+    display: table-cell;
+    vertical-align: top;
+    padding: 20px;
+    width: 30%; /* Ajustez la largeur selon vos besoins */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.service img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.service h3 {
+    margin-top: 10px;
+}
+
+.service p {
+    color: #666;
+}
+
+
+
+#apropos {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apropos-content {
+    flex: 1;
+    text-align: center;
+}
+
+.apropos-content h2 {
+    margin-bottom: 20px;
+}
+
+.apropos-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.apropos-image {
+    flex: 1;
+    text-align: center;
+}
+
+.apropos-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.accueil-content {
+    margin-left: 20px; /* Ajustez la marge selon vos besoins */
+}
+
+
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 600px) {
+    /* Ajoutez vos styles spécifiques pour les petits écrans ici */
+}
+
+
+.features {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.feature {
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 2rem; /* Ajoutez ici l'espace entre chaque boîte */
+    margin-right: 100px;
+}
+
+.feature + .feature {
+    margin-top: 5rem; /* Ajoutez ici l'espace entre chaque boîte */
+}
+
+
+.feature1 {
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 2rem; /* Ajoutez ici l'espace entre chaque boîte */
+    margin-right: 50px;
+}
+
+.feature + .feature {
+    margin-top: 5rem; /* Ajoutez ici l'espace entre chaque boîte */
+}
+
+
+
+.slider {
+    display: flex; /* Utilisez un conteneur flexible pour les éléments de la diapositive */
+    overflow-x: auto; /* Ajoutez une barre de défilement horizontale si nécessaire */
+    scroll-snap-type: x mandatory; /* Assurez-vous que le défilement se fait par diapositives horizontales */
+}
+
+.slide {
+    flex: 0 0 auto; /* La largeur de chaque diapositive est automatiquement déterminée par son contenu */
+    scroll-snap-align: start; /* Alignez chaque diapositive au début de la zone de défilement */
+}
+
+
+
+.slider .slide img {
+    width: 300px; /* Définir une largeur spécifique pour toutes les images */
+    height: auto; /* Conserver les proportions originales de l'image */
+}
+
+.slider .slide {
+    text-align: center; /* Centrer le texte sous chaque image */
+}
+
+.slider .slide p {
+    margin-top: 10px; /* Ajouter un espace entre l'image et le texte */
+}
+
+
+
+
+
+
+
+
+/* Style pour le conteneur de la carte (facultatif) */
+.map-container {
+  margin-top: 20px; /* Ajoutez un espace au-dessus de la carte */
+}
+
+
+
+
+
+.container {
+  display: flex; /* Utilisez un conteneur flex pour aligner les éléments */
+}
+
+
+.leaflet-map {
+  width: 500px; /* Définissez la largeur de la carte */
+  height: 500px; /* Définissez la hauteur de la carte */
+  float: left; /* Positionnez la carte à gauche */
+  margin-right: 20px; /* Ajoutez un espace à droite de la carte */
+
+
+
+.statistics {
+  background-color: #f9f9f9;
+  padding: 20px;
+  flex-grow: 1; /* Faites en sorte que la section des statistiques occupe tout l'espace restant */
+}
+
+.statistic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.statistic h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.statistic p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+
+
+
+/* Style pour le bouton Demander un Devis */
+.btn-devis {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Style au survol */
+.btn-devis:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+
+
+
+.video-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video-container {
+    width: 5%; /* Ajustez la largeur selon vos besoins */
+}
+
+.video-container video {
+    width: 10%; /* Ajustez la largeur selon vos besoins */
+    height: 10%; /* Ajustez la hauteur automatiquement en fonction de la largeur */
+    max-width: 20%; /* Assurez-vous que la vidéo ne dépasse pas la largeur de son conteneur */
+}
+
+.op img{
+background-color: white;
+}
+}
